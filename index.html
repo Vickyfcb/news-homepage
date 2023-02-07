@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Homepage</title>
+    <!-- =============== CUSTOM CSS =============== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <!-- =============== HEADER =============== -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">
+                <img src="images/logo.svg" alt="logo" class="logo__img">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" id="nav-list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> Home </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> New </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> Popular </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> Trending </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> Categories </a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <img src="images/icon-menu-close.svg" alt="icon-menu-close">
+                </div>
+            </div>
+            <div class="nav__open" id="nav-open">
+                <img src="images/icon-menu.svg" alt="icon-menu">
+            </div>
+        </nav>
+    </header>
+    <!-- =============== MAIN =============== -->
+    <main class="main">
+        <section class="hero container">
+            <section class="home">
+                <div class="home__container">
+                    <div class="home__img">
+                        <img class="mobile" src="images/image-web-3-mobile.jpg" alt="hero">
+                        <img src="images/image-web-3-desktop.jpg" alt="hero" class="desktop">
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            The Bright Future of Web 3.0?
+                        </h1>
+                        <div class="home__contents">
+                            <p class="home__description">
+                                We dive into the next evolution of the web that claims to put the power 
+                                of platforms back into the hands of the people. But is it really fuflilling 
+                                it's promise?
+                            </p>
+                            <button class="home__button">
+                                READ MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="new">
+                <div class="new__container">
+                    <h1 class="new__title">
+                        New
+                    </h1>
+                    <div class="new__contents grid">
+                        <div class="new__content">
+                            <h1 class="new__content-title">
+                                Hydrogen VS Eletric Cars
+                            </h1>
+                            <p class="new__content-description">
+                                Will hydrogen-fueled cars ever catch up to Evs?
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="new__content">
+                            <h1 class="new__content-title">
+                                The Downside of AI Artistry
+                            </h1>
+                            <p class="new__content-description">
+                                What are the possible adverse effects of on-demand AI image 
+                                generation?
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="new__content">
+                            <h1 class="new__content-title">
+                                Is VC Funding Drying Up?
+                            </h1>
+                            <p class="new__content-description">
+                                Private funding by VC firms is down 50% YOY. We take a look at what 
+                                that means.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="popular">
+            <div class="popular__container container grid">
+                <div class="popular__content">
+                    <img src="images/image-retro-pcs.jpg" alt="image-retro-pcs" class="popular__img">
+                    <div class="popular__data">
+                        <h1 class="popular__number">01</h1>
+                        <h1 class="popular__title"> Reviving Retro PCs</h1>
+                        <p class="popular__description"> 
+                            What happens when old PCs are given modern upgrades?
+                        </p>
+                    </div>
+                </div>
+                <div class="popular__content">
+                    <img src="images/image-top-laptops.jpg" alt="image-top-laptops" class="popular__img">
+                    <div class="popular__data">
+                        <h1 class="popular__number">02</h1>
+                        <h1 class="popular__title"> Top 10 Laptops of 2023</h1>
+                        <p class="popular__description"> 
+                            Our best picks for various needs and budgets.
+                        </p>
+                    </div>
+                </div>
+                <div class="popular__content">
+                    <img src="images/image-gaming-growth.jpg" alt="image-gaming-growth" class="popular__img">
+                    <div class="popular__data">
+                        <h1 class="popular__number">03</h1>
+                        <h1 class="popular__title"> The Growth of Gaming </h1>
+                        <p class="popular__description"> 
+                            How the pandemic has sparked fresh opportunities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- =============== CUSTOM JS =============== -->
+    <script src="main.js"></script>
+</body>
+</html>
